@@ -18,7 +18,7 @@ cache:
 install:
 - npm --production=false install
 script:
-- npm test
+- npm start
 before_deploy:
 - >
   if [ -z "$BEFORE_DEPLOY_RAN" ]; then
